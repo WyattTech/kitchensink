@@ -25,7 +25,10 @@ function checkAge(name, age) {
   }
 }
 
-checkAge("James", 18); //Call function
+checkAge("James", 18);//Call function
+checkAge("Abby", 27); 
+checkAge("James", 18); 
+checkAge("John", 17); 
 
 //Array with a while loop #10
 let veggies = ["broccoli", "cauliflower", "green beans", "potatoes"]; //Declaration of an array statement with four values listed but index from 0 to 3
