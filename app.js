@@ -25,7 +25,7 @@ function checkAge(name, age) {
   }
 }
 
-checkAge("James", 18);//Call function
+checkAge("Charles", 21);//Call function
 checkAge("Abby", 27); 
 checkAge("James", 18); 
 checkAge("John", 17); 
@@ -76,3 +76,10 @@ function getLength() {
 }
 getLength(); //Call the Function
 
+//I forgot this part of the drill
+if (getLength % 2 == 0) {
+  console.log("The world is nice and even!");
+  
+} else {
+  console.log("The world is an odd place!");
+}
